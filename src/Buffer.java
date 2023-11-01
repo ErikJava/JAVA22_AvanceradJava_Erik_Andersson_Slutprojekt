@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Buffer {
+public class Buffer {
     Queue<Item> buffer = new LinkedList<Item>();
 
     public synchronized void add(Item item) {

@@ -1,5 +1,5 @@
-class Item {
-    private String message;
+public class Item {
+    public String message;
 
     public Item(String message) {
         this.message = message;
